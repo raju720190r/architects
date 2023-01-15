@@ -1,0 +1,433 @@
+/* Google Fronts */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/* Common Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+     max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Top Header Style */
+header{
+   background-color:rgba(255, 144, 14, 0.1);
+}
+
+ .header-area{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 85px;
+
+  }
+  .top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom:100px;
+  }
+  .logo{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+  }
+  .nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .nav ul li{
+    margin-right:50px ; 
+}
+   .nav ul li a{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+   }
+   /* Banner Section */
+   .banner-details{
+     max-width: 700px;
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+     margin-bottom: 50px;
+    }
+   .banner-title{
+      color: #131313;
+      font-weight: 700;
+      font-size: 64px;
+      text-align: center;
+      margin-bottom: 32px;
+   }
+   .banner-description{
+      font-weight: 400;
+      font-size: 16px;
+      color: #727272;
+      text-align: center;
+      margin-bottom: 32px;
+    
+   }
+   .btn-primary{
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+   }
+   .btn-primary:hover{
+    background-color: #ffffff;
+    color: #FF900E;
+   }
+    .banner-images img{
+        max-width: 1440px;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    /* our-features style */
+    .our-team{
+        display: flex;
+        margin-bottom: 130px;
+    }
+    .our-team-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:25px
+    }
+    .our-team-details{
+        margin-top: 200px;
+        margin-left: 73px;
+    }
+    .our-team-tilte{
+        margin-bottom: 25px;
+
+    }
+    .quicklist{
+        color: #727272;
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .of-our{
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .feature-text{
+        font-size: 45px;
+        font-weight: 700;
+        color: #FF900E;
+    }
+    .our-team-description{
+       
+       font-weight: 400;
+       font-size: 16px;
+       color: #727272;
+       margin-bottom: 32px;
+    }
+    /* features styles */
+.features{
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.btn-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+    
+    .features-items{
+      display: flex;
+     
+      
+    }
+    .feature-section-details{
+        width:586px;
+        margin-right: 56px;
+        margin-top: 50px;
+
+    }
+    .feature-section-title{
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+        padding-left: 20px;
+        border-left: 5px solid #FF900E;
+        margin-bottom: 24px;
+    }
+    .feature-section-description{
+        color: #727272;
+        margin-bottom: 30px;
+    }
+
+    .feature-item{
+        
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        padding: 20px 30px;
+        border-radius: 5px;
+        margin-bottom: 40px;
+     
+    }
+    .feature-item-title{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .feature-item-description{
+        color: #727272;
+    }
+    .feature-section-images{
+        position: relative;
+    }
+    .feature-btn{
+        position: absolute;
+        background-color: #FF900E;
+        color: #ffffff;
+        border: none;
+        padding: 34px 42px;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 25px;
+        transition: 0.3s;
+        left: -50px;
+        bottom: -50px;
+        
+        
+    }
+    .feature-btn:hover{
+        background-color: #ffffff;
+        color: #FF900E;
+        border: 1px solid #FF900E;
+           
+    }
+
+    /* Some Facts styles */
+    .some-facts{
+        margin-bottom: 180px;
+    }
+
+    .some-fact-title{
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    .some-fact-description{
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 80px;
+    }
+    .some-fact-items{
+     display: flex;
+     justify-content: space-between;
+     grid-template-columns: repeat(4, 1fr);
+    }
+    .some-fact-item{
+        width: 241.83px;
+        height: 241px;
+        text-align: center;
+        border: 1px solid #FF900E;
+        padding: 60px 40px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    .some-fact-item:hover{
+        background-color: #FF900E;
+        color: #ffffff;
+        
+    }
+    .some-fact-item img{
+        margin-bottom: 9px;
+    }
+    .item-title{
+     margin-bottom: 5px;
+    }
+    /* Complete Project */
+    .complete-projects{
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .complete-porject-title{
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .project{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 30px;    
+    }
+    .project-item{
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        padding: 10px;
+    }
+
+    .project-item img{
+        max-width: 100%;
+        width: 700px;
+        height: 500px;
+        border-radius: 10px;
+    }
+
+    /* Our sponspors style */
+    .sponspors{
+    margin-bottom: 100px;
+    }
+    .sponspors-details{
+    text-align: center;
+    }
+    .sponspors-title{
+        color: #131313;
+        font-weight: 700;
+         font-size: 45px;
+        margin-bottom: 24px;
+    }
+    .sponspors-description{
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .sponsors-brands{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sponsors-brands img{
+        filter: grayscale(100%)
+    }
+    /* footer style */
+   footer{
+    background-color:  #FFF4E7;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    text-align: center;
+   }
+   .footer-description{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 40px;
+
+   }
+     
+   /* Responsiv For Mobile Device */
+
+
+   @media only screen and (max-width: 576px) {
+      body{
+        padding: 10px;
+      }
+      /* header section */
+    
+    .top-header, .nav ul{
+        width: 100%;
+        display: block;
+      }
+      .logo{
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+      .nav ul{
+        text-align: center;
+      }
+      .nav ul li{
+        margin-bottom: 20px;
+        
+      }
+      .nav ul li a{
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      /* Team section */
+      .our-team{
+        display: block;
+        
+      }
+      .our-team-details{
+        margin-top: 50px;
+        text-align: center;
+      }
+      .our-team-images{
+        padding: 5px;
+        display: block;
+        margin-bottom: 30px;
+      }
+      .our-team-images img{
+        width: 100%;
+
+      }
+      /* feature-section */
+      .features{
+        text-align: center;
+      }
+      .features-items{
+        display: block;
+        width: 100%;
+      }
+      .feature-section-details{
+        width: 100%;
+        
+      }
+      .feature-btn{
+          position: relative;
+          margin: 0px;
+          top: 20px;
+          left: 6px;
+      }
+      .feature-section-images img{
+        width: 100%;
+      }
+     /* some fact  */
+
+      .some-fact-items{
+        display: block;
+        
+      }
+      .some-fact-details{
+        text-align: center;
+      }
+      .some-fact-item{
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      /* complete project */
+      .project{
+        display:block;
+        width: 100%;
+      }
+      .complete-porject-title{
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .sponsors-brands{
+        display: block;
+        text-align: center;
+    }
+    .brand-logo{
+        margin-bottom: 30px;
+    }
+    /* End */
+
+    
